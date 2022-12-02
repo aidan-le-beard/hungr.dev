@@ -4,17 +4,6 @@ Grocery Application
 
 ## Backend 
 
-### Service: Digital Ocean 
-
-For renting out hardware to run the services on that will connect each of the clients. 
-Possibility of running a Postgres Instance really quickly, and having a functioning database. 
-  
-### HTTP Server: Node JS, express
-
-Very well documented http server. 
-Simple to set up, extremely performant.
-Having the language be JS on the backend allows for any team member to step in quickly and start writing requests soon if need be.
-Will have a variety of GET, POST, PATCH, DELETE requests to be written for the client to interact with the data storage solution. 
 
 ### Data Storage: JSON File, Postgres, SQLite
 
@@ -24,12 +13,6 @@ While it is possible to use a file based system for the requirements of the appl
 File access while many agents are using it will be a problem, having a lock file in place would eliminate the cause of many users having many different states. 
 At the same time the cost of this would be the UX of the application. 
 Not being able to edit the contents of grocery list in a reasonable amount of time would annoy most users. 
-
-Postgres: 
-
-Postgres is a battle tested database that handle our requirements with ease. 
-Setting up postgres to link with the node application can be a little bit of work. 
-Configuring the certificates has always been a pain, and having the database instance on a different computer gives another point of failure. 
 
 SQLite: 
 
@@ -45,7 +28,7 @@ Auth:
 Using a table on the selected database to authorize users would be the most streamlined option. 
 
 Users: 
-Standard email and password sign up
+Standard email and password sign up using Firebase
 
 ## Frontend
 
