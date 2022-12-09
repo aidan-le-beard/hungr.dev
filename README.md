@@ -1,11 +1,10 @@
 # hungr.dev
-Senior Project
-Grocery Application
+This is a cross-platform Android/iOS Dynamic Grocery List app created in Flutter/Dart, with full backend API/database support. The app allows creation of shopping lists that are shareable amongst groups such as family members, where all members can add and delete items from the shared dynamic grocery list. The API/database can be found at https://github.com/aidan-le-beard/api.hungr.dev
 
 ## Backend 
 
 
-### Data Storage: JSON File, Postgres, SQLite
+### Data Storage: JSON File, SQLite
 
 Json File: 
 
@@ -16,8 +15,7 @@ Not being able to edit the contents of grocery list in a reasonable amount of ti
 
 SQLite: 
 
-The best option of all three. 
-Will satisfy all the data requirements.
+Satisfies all the data requirements.
 There are plenty of node modules for interacting with an sqlite database.
 The database can live on the same machine as the http server, 
 reducing the overhead of calling to another machine like we would with Postgres. 
@@ -25,10 +23,10 @@ Would also be the most accessible between the two databases because postgres can
 
 Auth: 
 
-Using a table on the selected database to authorize users would be the most streamlined option. 
+Google's Firebase auth comes with secure authentication that is easily implemented into Flutter apps.
 
 Users: 
-Standard email and password sign up using Firebase
+Standard email and password sign up using Firebase, with ability to reset password.
 
 ## Frontend
 
@@ -45,6 +43,11 @@ Async/Await: Asynchronous method of scheduling work to be done, useful for netwo
 ### Android Application: 
 ##### Stack: 
 
+Dart
+
+Python
+
+SQL
 
 
 ## Website
