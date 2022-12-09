@@ -99,3 +99,6 @@ CSS
 
 #### Result of Pressing "Submit"
 <img src="https://user-images.githubusercontent.com/33675444/206811091-8c6a0938-d41b-4dce-a83d-591c41930de9.png" width="415" height="922" />
+
+#### Firebase Backend View of Created Account(s)
+![image](https://user-images.githubusercontent.com/33675444/206811443-172b5ef4-581e-4ab6-b7b5-8d5c6057cf8f.png)
